@@ -38,4 +38,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
-SELECT  SUBSTRING(c14,1,4) AS YEAR, COUNT(*) AS CANT FROM tbl1 WHERE  SUBSTRING(c14,1,4) = "2018"
+SELECT  SUBSTRING(c14,1,4) AS YEAR, COUNT(*) AS CANT FROM tbl1 WHERE  SUBSTRING(c14,1,4) = "2018" GROUP BY YEAR
